@@ -36,8 +36,8 @@ const sampleRegistrations = [
 
 export default function AdminPage() {
   const [showFeedback, setShowFeedback] = useState(true);
-  const pathname = usePathname();
-  const { user, logout } = useAuth();
+  //const pathname = usePathname();
+  //const { user, logout } = useAuth();
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
